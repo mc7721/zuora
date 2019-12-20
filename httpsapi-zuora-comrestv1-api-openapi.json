@@ -1,0 +1,16 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "https:\/\/api.zuora.com\/rest\/v1 API",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": [],
+    "components": {
+        "schemas": []
+    }
+}
