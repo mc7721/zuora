@@ -1,0 +1,607 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "ZuoraAPI",
+        "description": "Neuron ESB Provided Swagger Interface to interact with Zuora Rest API",
+        "termsOfService": ""
+    },
+    "servers": [
+        "https:\/\/api.zuora.com\/rest\/v1\/",
+        "http:\/\/api.zuora.com\/rest\/v1\/"
+    ],
+    "paths": {
+        "\/catalog\/products": {
+            "get": {
+                "summary": "Catalog",
+                "description": "This REST API reference describes how to retrieve the entire product catalog, including all products, features, and their corresponding rate plans, charges. Products are returned in reverse chronological order on the UpdatedDate field. ",
+                "operationId": "ThisRestApiReferenceDescribesHowToRetrieveTheEntireProductCatalogIncludingAllProducts",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/connections": {
+            "post": {
+                "summary": "Connections",
+                "description": "Establishes a connection to the Zuora REST API service based on a valid user credentials.",
+                "operationId": "EstablishesAConnectionToTheZuoraRestApiServiceBasedOnAValidUserCredentials",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/files\/{file-id}": {
+            "get": {
+                "summary": "Get Files",
+                "description": "This REST API retrieves the invoice PDF file.",
+                "operationId": "ThisRestApiRetrievesTheInvoicePdfFile",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/hmac-signatures": {
+            "post": {
+                "summary": "HMAC Signatures",
+                "description": "This REST API reference describes how to return unique signature and token values that used to process a CORS enabled API call.",
+                "operationId": "ThisRestApiReferenceDescribesHowToReturnUniqueSignatureAndTokenValuesThatUsedToProce",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/hostedpages?version={versionNumber}": {
+            "get": {
+                "summary": "Hosted Pages",
+                "description": "The hostedpages call returns the Payment Pages configuration metadata, specifically, page ID, page version, payment method type.",
+                "operationId": "TheHostedpagesCallReturnsThePaymentPagesConfigurationMetadataSpecificallyPageIdPageVers",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/quotes\/document": {
+            "post": {
+                "summary": "Quotes Document",
+                "description": "The document call generates a quote document and returns the generated document URL. You can directly access the generated quote file through the returned URL.",
+                "operationId": "TheDocumentCallGeneratesAQuoteDocumentAndReturnsTheGeneratedDocumentUrlYouCanDirectly",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-recognition-rules\/subscription-charges\/{charge-key}": {
+            "get": {
+                "summary": "Revenue Rules: Get the rule associated with a charge",
+                "description": "This REST API reference describes how to get the revenue recognition rule associated with a subscription charge by specifying the charge ID. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToGetTheRevenueRecognitionRuleAssociatedWithASubscrip",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/settings\/finance\/revenue-automation-start-date": {
+            "get": {
+                "summary": "Settings: Get the revenue automation start date",
+                "description": "This REST API reference describes how to get the revenue automation start date. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToGetTheRevenueAutomationStartDateRequestAndResponse",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/accounts": {
+            "post": {
+                "summary": "Create account",
+                "description": "This REST API reference describes how to create a customer account with a credit-card payment method, a bill-to contact, and an optional sold-to contact. Request and response field descriptions and sample code are provided. Use this method to optionally create a subscription, invoice for that subscription, and collect payment through the default payment method. The transaction is atomic; if any part fails for any reason, the entire transaction is rolled back.",
+                "operationId": "ThisRestApiReferenceDescribesHowToCreateACustomerAccountWithACreditcardPaymentMethod",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/accounts\/{account-key}": {
+            "post": {
+                "summary": "Update account",
+                "description": "This REST API reference describes how to update a customer account by specifying the account-key.",
+                "operationId": "ThisRestApiReferenceDescribesHowToUpdateACustomerAccountBySpecifyingTheAccountkey",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/accounts\/{account-key}\/summary": {
+            "get": {
+                "summary": "Get account summary",
+                "description": "This REST API reference describes how to retrieve detailed information about the specified customer account.",
+                "operationId": "ThisRestApiReferenceDescribesHowToRetrieveDetailedInformationAboutTheSpecifiedCustomer",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/amendments\/{amendment-key}": {
+            "get": {
+                "summary": "Get Amendments By Key",
+                "description": "This REST API reference describes how to retrieve detailed information about a specified subscription amendment.",
+                "operationId": "ThisRestApiReferenceDescribesHowToRetrieveDetailedInformationAboutASpecifiedSubscriptio",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/amendments\/subscriptions\/{subscription-id}": {
+            "get": {
+                "summary": "Get Amendments By Subscription Id",
+                "description": "This REST API reference describes how to retrieve detailed information about an amendment with the specified subscription.",
+                "operationId": "ThisRestApiReferenceDescribesHowToRetrieveDetailedInformationAboutAnAmendmentWithTheS",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/charge-revenue-summaries\/{crs-number}": {
+            "get": {
+                "summary": "Get Charge Summary Details by CRS number",
+                "description": "This REST API reference describes how to retrieve the details of a charge revenue summary by specifying the charge revenue summary number. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToRetrieveTheDetailsOfAChargeRevenueSummaryBySpecify",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/charge-revenue-summaries\/subscription-charges\/{charge-key}": {
+            "get": {
+                "summary": "Get Charge Revenue Summary Details by Charge ID",
+                "description": "This REST API reference describes how to retrieve the details of a charge revenue summary by specifying the subscription charge ID. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToRetrieveTheDetailsOfAChargeRevenueSummaryBySpecify",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/custom-exchange-rates\/{currency}": {
+            "get": {
+                "summary": "Get Custom Foreign Currency Exchange Rates",
+                "description": "This feature is in Limited Availability. If you wish to have access to the feature, submit a request at Zuora Global Support. ",
+                "operationId": "ThisFeatureIsInLimitedAvailabilityIfYouWishToHaveAccessToTheFeatureSubmitARequestA",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/journal-runs\/{jr-number}\/cancel": {
+            "post": {
+                "summary": "Cancel Journal Run",
+                "description": "This reference describes how to cancel a journal run using the REST API.",
+                "operationId": "ThisReferenceDescribesHowToCancelAJournalRunUsingTheRestApi",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/journal-runs": {
+            "post": {
+                "summary": "Create Journal Run",
+                "description": "This REST API reference describes how to create a journal run. Request and response field descriptions and sample code are provided. ",
+                "operationId": "ThisRestApiReferenceDescribesHowToCreateAJournalRunRequestAndResponseFieldDescription",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/journal-runs\/{jr-number}": {
+            "post": {
+                "summary": "Delete Journal Run",
+                "description": "This reference describes how to delete a journal run using the REST API.",
+                "operationId": "ThisReferenceDescribesHowToDeleteAJournalRunUsingTheRestApi",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Get Journal Run",
+                "description": "This REST API reference describes how to get information about a journal run. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToGetInformationAboutAJournalRunRequestAndResponseFi",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/bulk": {
+            "post": {
+                "summary": "Perform Mass Action",
+                "description": "This reference describes how to perform a mass action through the REST API. See Mass Updater for more information about performing mass actions.",
+                "operationId": "ThisReferenceDescribesHowToPerformAMassActionThroughTheRestApiSeeMassUpdaterForMore",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/bulk\/{bulk-key}": {
+            "get": {
+                "summary": "Get Mass Action Result",
+                "description": "This reference describes how to get information about the result of a mass action through the REST API. See Mass Updater for more information about mass actions.",
+                "operationId": "ThisReferenceDescribesHowToGetInformationAboutTheResultOfAMassActionThroughTheRestA",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/bulk\/{bulk-key}\/stop": {
+            "post": {
+                "summary": "Stop Mass Action",
+                "description": "This reference describes how to stop a mass action through the REST API. You can stop a mass action when its status is Pending or Processing. After you have stopped a mass action, you can get the mass action result to see details of the mass action.",
+                "operationId": "ThisReferenceDescribesHowToStopAMassActionThroughTheRestApiYouCanStopAMassActionW",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/notification-history\/callout": {
+            "get": {
+                "summary": "Get Callout Notification Histories",
+                "description": "This REST API reference describes how to get a notification history for callouts.",
+                "operationId": "ThisRestApiReferenceDescribesHowToGetANotificationHistoryForCallouts",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/notification-history\/email": {
+            "get": {
+                "summary": "Get Email Notification Histories",
+                "description": "This REST API reference describes how to get a notification history for notification emails.",
+                "operationId": "ThisRestApiReferenceDescribesHowToGetANotificationHistoryForNotificationEmails",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/paymentmethods\/credit-cards": {
+            "post": {
+                "summary": "Create payment method",
+                "description": "This REST API reference describes how to create a new credit card payment method for a customer account.",
+                "operationId": "ThisRestApiReferenceDescribesHowToCreateANewCreditCardPaymentMethodForACustomerAcco",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/payment-methods\/credit-cards\/accounts\/{account-key}": {
+            "get": {
+                "summary": "Get payment methods",
+                "description": "This REST API reference describes how to retrieve all credit card information for the specified customer account.",
+                "operationId": "ThisRestApiReferenceDescribesHowToRetrieveAllCreditCardInformationForTheSpecifiedCust",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/payment-methods\/credit-cards\/{payment-method-id}": {
+            "post": {
+                "summary": "Update payment method",
+                "description": "Updates an existing credit card payment method for the specified customer account.",
+                "operationId": "UpdatesAnExistingCreditCardPaymentMethodForTheSpecifiedCustomerAccount",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/payment-methods\/{payment-method-id}": {
+            "post": {
+                "summary": "Delete payment method",
+                "description": "Deletes a credit card payment method from the specified customer account.",
+                "operationId": "DeletesACreditCardPaymentMethodFromTheSpecifiedCustomerAccount",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-events\/{event-number}": {
+            "get": {
+                "summary": "Get revenue event details",
+                "description": "This REST API reference describes how to get revenue event details by specifying the revenue event number. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToGetRevenueEventDetailsBySpecifyingTheRevenueEventN",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-events\/revenue-schedules\/{rs-number}": {
+            "get": {
+                "summary": "Get revenue events for a revenue schedule",
+                "description": "This REST API reference describes how to get all revenue events in a revenue schedule by specifying the revenue schedule number. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToGetAllRevenueEventsInARevenueScheduleBySpecifying",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-items\/charge-revenue-summaries\/{crs-number}": {
+            "get": {
+                "summary": "Get revenue items by charge revenue summary number",
+                "description": "This REST API reference describes how to get the details for each revenue item in a charge revenue summary by specifying the charge revenue summary number. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToGetTheDetailsForEachRevenueItemInAChargeRevenueS",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-items\/revenue-events\/{event-number}": {
+            "get": {
+                "summary": "Get revenue items by revenue event number",
+                "description": "This REST API reference describes how to get the details of each revenue item in a revenue event by specifying the revenue event number. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToGetTheDetailsOfEachRevenueItemInARevenueEventBy",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Update custom fields on revenue items by revenue event number",
+                "description": " ",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-items\/revenue-schedules\/{rs-number}": {
+            "put": {
+                "summary": "Update custom fields on revenue items by the revenue schedule number",
+                "description": "This REST API reference describes how to update custom fields on revenue Items by specifying the revenue schedule number. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToUpdateCustomFieldsOnRevenueItemsBySpecifyingTheRev",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-schedules\/invoice-items\/{invoice-item-id}\/distribute-revenue-with-date-range": {
+            "post": {
+                "summary": "Create a revenue schedule for an Invoice Item (distribute by date range)",
+                "description": "This REST API reference describes how to create a revenue schedule for an Invoice Item and distribute the revenue by specifying the recognition start and end dates.",
+                "operationId": "ThisRestApiReferenceDescribesHowToCreateARevenueScheduleForAnInvoiceItemAndDistribut",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-schedules\/invoice-items\/{invoice-item-id}": {
+            "post": {
+                "summary": "Create a revenue schedule for an Invoice Item (manual distribution)",
+                "description": "This REST API reference describes how to create a revenue schedule for an Invoice Item and manually distribute the revenue.",
+                "operationId": "ThisRestApiReferenceDescribesHowToCreateARevenueScheduleForAnInvoiceItemAndManually",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Get a revenue schedule by invoice item",
+                "description": "This REST API reference describes how to get the details of a revenue schedule by specifying the invoice item identifier. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToGetTheDetailsOfARevenueScheduleBySpecifyingTheInv",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-schedules\/invoice-item-adjustments\/{invoice-item-adj-key}\/distribute-revenue-with-date-range": {
+            "post": {
+                "summary": "Create a revenue schedule for an Invoice Item Adjustment (distribute by date range)",
+                "description": "This REST API reference describes how to create a revenue schedule for an Invoice Item Adjustment and distribute the revenue by specifying the recognition start and end dates.",
+                "operationId": "ThisRestApiReferenceDescribesHowToCreateARevenueScheduleForAnInvoiceItemAdjustmentAn",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-schedules\/invoice-item-adjustments\/{invoice-item-adj-key}": {
+            "post": {
+                "summary": "Create a revenue schedule for an Invoice Item Adjustment (manual distribution)",
+                "description": "This REST API reference describes how to create a revenue schedule for an Invoice Item Adjustment and manually distribute the revenue.",
+                "operationId": "ThisRestApiReferenceDescribesHowToCreateARevenueScheduleForAnInvoiceItemAdjustmentAn",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-schedules\/subscription-charges\/{charge-key}": {
+            "post": {
+                "summary": "Create a revenue schedule on a subscription charge",
+                "description": "This REST API reference describes how to create a revenue schedule by specifying the subscription charge. This method is for custom unlimited revenue recognition only. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToCreateARevenueScheduleBySpecifyingTheSubscriptionCh",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Get revenue schedule details of a subscription charge",
+                "description": "This REST API reference describes how to get the revenue schedule details by specifying subscription charge ID. Request and response field descriptions and sample code are provided. ",
+                "operationId": "ThisRestApiReferenceDescribesHowToGetTheRevenueScheduleDetailsBySpecifyingSubscription",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-schedules\/{rs-number}": {
+            "post": {
+                "summary": "Delete revenue schedule",
+                "description": "This REST API reference describes how to delete a revenue schedule by specifying its revenue schedule number.",
+                "operationId": "ThisRestApiReferenceDescribesHowToDeleteARevenueScheduleBySpecifyingItsRevenueSchedul",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Get revenue schedule details",
+                "description": "This REST API reference describes how to get the details of a revenue schedule by specifying the revenue schedule number. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToGetTheDetailsOfARevenueScheduleBySpecifyingTheRev",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-schedules\/{rs-number}\/distribute-revenue-across-accounting-periods": {
+            "post": {
+                "summary": "Distribute revenue across accounting periods",
+                "description": "This REST API reference describes how to distribute revenue by specifying the revenue schedule number. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToDistributeRevenueBySpecifyingTheRevenueScheduleNumbe",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-schedules\/{rs-number}\/distribute-revenue-on-specific-date": {
+            "post": {
+                "summary": "Distribute revenue on a specific date",
+                "description": "This REST API reference describes how to distribute revenue on a specific recognition date. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToDistributeRevenueOnASpecificRecognitionDateRequestA",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-schedules\/{rs-number}\/distribute-revenue-with-date-range": {
+            "post": {
+                "summary": "Distribute revenue by recognition start and end dates",
+                "description": "This REST API reference describes how to distribute revenue by specifying the recognition start and end dates. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToDistributeRevenueBySpecifyingTheRecognitionStartAnd",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-schedules\/invoice-item-adjustments\/{invoice-item-adj-id}": {
+            "get": {
+                "summary": "Get a revenue schedule by invoice item adjustment",
+                "description": "This REST API reference describes how to get the details of a revenue schedule by specifying a valid invoice item adjustment identifier. Request and response field descriptions and sample code are provided. ",
+                "operationId": "ThisRestApiReferenceDescribesHowToGetTheDetailsOfARevenueScheduleBySpecifyingAValid",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/revenue-schedules\/{rs-number}\/basic-information": {
+            "post": {
+                "summary": "Update revenue schedule basic information",
+                "description": "This REST API reference describes how to get basic information of a revenue schedule by specifying the revenue schedule number. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToGetBasicInformationOfARevenueScheduleBySpecifyingT",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/subscriptions": {
+            "post": {
+                "summary": "Create subscription",
+                "description": "This REST API reference describes how to create a new subscription for an existing customer account.",
+                "operationId": "ThisRestApiReferenceDescribesHowToCreateANewSubscriptionForAnExistingCustomerAccount",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/subscriptions\/accounts\/{account-key}": {
+            "get": {
+                "summary": "Get subscriptions by account",
+                "description": "Retrieves all subscriptions associated with the specified account.",
+                "operationId": "RetrievesAllSubscriptionsAssociatedWithTheSpecifiedAccount",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/subscriptions\/{subscription-key}": {
+            "post": {
+                "summary": "Update subscription",
+                "description": " ",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Get subscriptions by key",
+                "description": "This REST API reference describes how to retrieve detailed information about a specified subscription.",
+                "operationId": "ThisRestApiReferenceDescribesHowToRetrieveDetailedInformationAboutASpecifiedSubscriptio",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/subscriptions\/{subscription-key}\/renew": {
+            "post": {
+                "summary": "Renew subscription",
+                "description": "Renews a termed subscription using existing renewal terms.",
+                "operationId": "RenewsATermedSubscriptionUsingExistingRenewalTerms",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/subscriptions\/{subscription-key}\/cancel": {
+            "post": {
+                "summary": "Cancel subscription",
+                "description": "This REST API reference describes how to cancel an active subscription",
+                "operationId": "ThisRestApiReferenceDescribesHowToCancelAnActiveSubscription",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/subscriptions\/{subscription-key}\/resume": {
+            "post": {
+                "summary": "Resume Subscription",
+                "description": "This feature is in Limited Availability. If you wish to have access to the feature, submit a request at Zuora Global Support. ",
+                "operationId": "ThisFeatureIsInLimitedAvailabilityIfYouWishToHaveAccessToTheFeatureSubmitARequestA",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/subscriptions\/{subscription-key}\/suspend": {
+            "post": {
+                "summary": "Suspend Subscription",
+                "description": "This feature is in Limited Availability. If you wish to have access to the feature, submit a request at Zuora Global Support. ",
+                "operationId": "ThisFeatureIsInLimitedAvailabilityIfYouWishToHaveAccessToTheFeatureSubmitARequestA",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/journal-entries": {
+            "post": {
+                "summary": "Create Summary Journal Entry",
+                "description": "This REST API reference describes how to manually create a summary journal entry. Request and response field descriptions and sample code are provided. ",
+                "operationId": "ThisRestApiReferenceDescribesHowToManuallyCreateASummaryJournalEntryRequestAndRespons",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/journal-entries\/{je-number}\/cancel": {
+            "put": {
+                "summary": "Cancel Summary Journal Entry",
+                "description": "This reference describes how to cancel a summary journal entry using the REST API.",
+                "operationId": "ThisReferenceDescribesHowToCancelASummaryJournalEntryUsingTheRestApi",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/journal-entries\/{je-number}": {
+            "post": {
+                "summary": "Delete Summary Journal Entry",
+                "description": "This reference describes how to delete a summary journal entry using the REST API.",
+                "operationId": "ThisReferenceDescribesHowToDeleteASummaryJournalEntryUsingTheRestApi",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Get Summary Journal Entry Information",
+                "description": "This REST API reference describes how to get information about a summary journal entry by its journal entry number.",
+                "operationId": "ThisRestApiReferenceDescribesHowToGetInformationAboutASummaryJournalEntryByItsJourna",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/journal-entries\/journal-runs\/{jr-number}": {
+            "get": {
+                "summary": "Get All Summary Journal Entries in a Journal Run",
+                "description": "This REST API reference describes how to retrieve information about all summary journal entries in a journal run.",
+                "operationId": "ThisRestApiReferenceDescribesHowToRetrieveInformationAboutAllSummaryJournalEntriesInA",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/journal-entries\/{je-number}\/basic-information": {
+            "post": {
+                "summary": "Update Basic Information of a Summary Journal Entry",
+                "description": "This REST API reference describes how to update the basic information of a summary journal entry. Request and response field descriptions and sample code are provided.",
+                "operationId": "ThisRestApiReferenceDescribesHowToUpdateTheBasicInformationOfASummaryJournalEntryReq",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/transactions\/payments\/accounts\/{account-key}": {
+            "get": {
+                "summary": "Get payments",
+                "description": "Retrieves payments for a specified account.  ",
+                "operationId": "RetrievesPaymentsForASpecifiedAccount",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/operations\/invoice-collect": {
+            "post": {
+                "summary": "Invoice and collect",
+                "description": "Generates invoices and collects payments for a specified account.",
+                "operationId": "GeneratesInvoicesAndCollectsPaymentsForASpecifiedAccount",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/usage": {
+            "post": {
+                "summary": "Post usage",
+                "description": "This REST API reference describes how to post or import usage data for one or more accounts in the CSV format. There are no path or query parameters. The data is uploaded using the HTTP multipart\/form-data POST method and applied to the user's tenant. ",
+                "operationId": "ThisRestApiReferenceDescribesHowToPostOrImportUsageDataForOneOrMoreAccountsInTheC",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/usage\/accounts\/{account-key}": {
+            "get": {
+                "summary": "Get usage",
+                "description": "This REST API reference describes how to retrieve usage details for an account. Usage data is returned in reverse chronological order.",
+                "operationId": "ThisRestApiReferenceDescribesHowToRetrieveUsageDetailsForAnAccountUsageDataIsReturne",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
