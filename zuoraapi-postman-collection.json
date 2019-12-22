@@ -1,5 +1,5 @@
 {
-    "id": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+    "id": "5f11ed01b1373fd9ce52f9d8d84dacdb",
     "name": "ZuoraAPI",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "bd51554537d0bb81afde89b8d0e8a394",
+            "id": "79cf1236b00398af652b7c76352319ae",
             "name": "Catalog",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/catalog\/products",
             "description": "This REST API reference describes how to retrieve the entire product catalog, including all products, features, and their corresponding rate plans, charges. Products are returned in reverse chronological order on the UpdatedDate field. ",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "ffa5b3401d01552928e91e769af6e409",
+            "id": "7639e241b80791e5efd1312303f66484",
             "name": "Connections",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/connections",
             "description": "Establishes a connection to the Zuora REST API service based on a valid user credentials.",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "1e02cc57be2ddde50d195ac7fdf7b1d7",
+            "id": "28113e4063e332c7bd0f15f9a3a6b41b",
             "name": "Get Files",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/files\/{file-id}",
             "description": "This REST API retrieves the invoice PDF file.",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "a13428c728021528239ab78893a953d2",
+            "id": "e9bc4d616f40b8347a6bb186cdccea60",
             "name": "HMAC Signatures",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/hmac-signatures",
             "description": "This REST API reference describes how to return unique signature and token values that used to process a CORS enabled API call.",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "b21e26baad10b5518765df67bad67787",
+            "id": "652b96af073a1870c35001ec278cfa4f",
             "name": "Hosted Pages",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/hostedpages?version={versionNumber}",
             "description": "The hostedpages call returns the Payment Pages configuration metadata, specifically, page ID, page version, payment method type.",
@@ -121,11 +121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "87f90bcf4a24331011c9010a329f9050",
+            "id": "3c27794fd95a49b40487cf464c699715",
             "name": "Quotes Document",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/quotes\/document",
             "description": "The document call generates a quote document and returns the generated document URL. You can directly access the generated quote file through the returned URL.",
@@ -144,11 +144,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "01394793f28a9b6b313b0ced1db2959e",
+            "id": "470e81bc34cf880733320100a3a2c54f",
             "name": "Revenue Rules: Get the rule associated with a charge",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-recognition-rules\/subscription-charges\/{charge-key}",
             "description": "This REST API reference describes how to get the revenue recognition rule associated with a subscription charge by specifying the charge ID. Request and response field descriptions and sample code are provided.",
@@ -167,11 +167,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "aa1fa144c178a8a3d3412b22c6b825a3",
+            "id": "e660a68033ae7b87d26f77a32e3fe046",
             "name": "Settings: Get the revenue automation start date",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/settings\/finance\/revenue-automation-start-date",
             "description": "This REST API reference describes how to get the revenue automation start date. Request and response field descriptions and sample code are provided.",
@@ -190,11 +190,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "e894034a9470dafd65758605d748d68e",
+            "id": "3058fae5598588ef92865e779f720452",
             "name": "Create account",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/accounts",
             "description": "This REST API reference describes how to create a customer account with a credit-card payment method, a bill-to contact, and an optional sold-to contact. Request and response field descriptions and sample code are provided. Use this method to optionally create a subscription, invoice for that subscription, and collect payment through the default payment method. The transaction is atomic; if any part fails for any reason, the entire transaction is rolled back.",
@@ -213,11 +213,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "27e4f8db1fc26ea4369d0e244751dc72",
+            "id": "0ef97a4e039bc2bd186032368be150bb",
             "name": "Update account",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/accounts\/{account-key}",
             "description": "This REST API reference describes how to update a customer account by specifying the account-key.",
@@ -236,11 +236,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "75af5021acc5e893140920ece8581920",
+            "id": "9d8111e33dc6c2e48585185a46df4896",
             "name": "Get account summary",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/accounts\/{account-key}\/summary",
             "description": "This REST API reference describes how to retrieve detailed information about the specified customer account.",
@@ -259,11 +259,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "3cf4f844c1c4f84b59b1bcd3f73f6792",
+            "id": "4deb9bcf80766c47d32692a61b840eb3",
             "name": "Get Amendments By Key",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/amendments\/{amendment-key}",
             "description": "This REST API reference describes how to retrieve detailed information about a specified subscription amendment.",
@@ -282,11 +282,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "844319b7e3c90a2ae77f71a8c4df3738",
+            "id": "9bdc7658e1efc673418e81dc76e0eb6a",
             "name": "Get Amendments By Subscription Id",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/amendments\/subscriptions\/{subscription-id}",
             "description": "This REST API reference describes how to retrieve detailed information about an amendment with the specified subscription.",
@@ -305,11 +305,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "e4eabb90c37759d6e8fa3cb5bae29d24",
+            "id": "86d704705ee67bf25f7a7561e0cb0ec7",
             "name": "Get Charge Summary Details by CRS number",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/charge-revenue-summaries\/{crs-number}",
             "description": "This REST API reference describes how to retrieve the details of a charge revenue summary by specifying the charge revenue summary number. Request and response field descriptions and sample code are provided.",
@@ -328,11 +328,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "0c26a4609d156854fe71a2c7b82f54f3",
+            "id": "ff67ad676722cfcace5c77e796119d37",
             "name": "Get Charge Revenue Summary Details by Charge ID",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/charge-revenue-summaries\/subscription-charges\/{charge-key}",
             "description": "This REST API reference describes how to retrieve the details of a charge revenue summary by specifying the subscription charge ID. Request and response field descriptions and sample code are provided.",
@@ -351,11 +351,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "305cf5a60f7f3890d38a5c98f630ea2a",
+            "id": "117157c53a9ddd3ef9f6ccfb39c174d7",
             "name": "Get Custom Foreign Currency Exchange Rates",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/custom-exchange-rates\/{currency}",
             "description": "This feature is in Limited Availability. If you wish to have access to the feature, submit a request at Zuora Global Support. ",
@@ -374,11 +374,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "d827beb5fbbc862e99c36b2684156199",
+            "id": "290923e278290fc343e218d88fc01f1c",
             "name": "Cancel Journal Run",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/journal-runs\/{jr-number}\/cancel",
             "description": "This reference describes how to cancel a journal run using the REST API.",
@@ -397,11 +397,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "63e4bea4e277b9f5c1c85511e8127789",
+            "id": "d2fbf5c68a2519907146f7a3e24e6859",
             "name": "Create Journal Run",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/journal-runs",
             "description": "This REST API reference describes how to create a journal run. Request and response field descriptions and sample code are provided. ",
@@ -420,11 +420,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "df133432e3a6d18d5f3b4fa4e7a8ec2e",
+            "id": "cc9cba3e627e5a92305fc9bb8d2a8859",
             "name": "Delete Journal Run",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/journal-runs\/{jr-number}",
             "description": "This reference describes how to delete a journal run using the REST API.",
@@ -443,11 +443,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "4225e3fecb155e5fb6fc81f7b540836e",
+            "id": "99e524d4f6823e9cc9de48e29b0d4132",
             "name": "Get Journal Run",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/journal-runs\/{jr-number}",
             "description": "This REST API reference describes how to get information about a journal run. Request and response field descriptions and sample code are provided.",
@@ -466,11 +466,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "3eda20b9a226f963f9c5009bc5685a02",
+            "id": "72a0f07f91279c78098a95e23a0f77bd",
             "name": "Perform Mass Action",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/bulk",
             "description": "This reference describes how to perform a mass action through the REST API. See Mass Updater for more information about performing mass actions.",
@@ -489,11 +489,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "807c3619e13189fd6c1b1125c22dba51",
+            "id": "f1ce7ca8b1b90d33f27fb72afa1d40d4",
             "name": "Get Mass Action Result",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/bulk\/{bulk-key}",
             "description": "This reference describes how to get information about the result of a mass action through the REST API. See Mass Updater for more information about mass actions.",
@@ -512,11 +512,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "17acb1b2cbd972a07fa7c93ce549ba74",
+            "id": "b1279f78e6d0c23df99ce74cd1519142",
             "name": "Stop Mass Action",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/bulk\/{bulk-key}\/stop",
             "description": "This reference describes how to stop a mass action through the REST API. You can stop a mass action when its status is Pending or Processing. After you have stopped a mass action, you can get the mass action result to see details of the mass action.",
@@ -535,11 +535,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "e8e5fc8618e3af06469daaf688b6ad43",
+            "id": "64333f98c223416da6223f640b6a4474",
             "name": "Get Callout Notification Histories",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/notification-history\/callout",
             "description": "This REST API reference describes how to get a notification history for callouts.",
@@ -558,11 +558,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "773e37a9d91ea94deb51237de8c0cd59",
+            "id": "719c5dd8fe7dac2bf61416fb7e75db75",
             "name": "Get Email Notification Histories",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/notification-history\/email",
             "description": "This REST API reference describes how to get a notification history for notification emails.",
@@ -581,11 +581,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "83fd2c707c2e1b34dce1bb865199352d",
+            "id": "ad0393cd9a6675f8ab7fddbfbc04afcb",
             "name": "Create payment method",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/paymentmethods\/credit-cards",
             "description": "This REST API reference describes how to create a new credit card payment method for a customer account.",
@@ -604,11 +604,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "c25e214c05eb077731ca7fb2087ee8b4",
+            "id": "2762487799ed9d4b63ab22d0020633e2",
             "name": "Get payment methods",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/payment-methods\/credit-cards\/accounts\/{account-key}",
             "description": "This REST API reference describes how to retrieve all credit card information for the specified customer account.",
@@ -627,11 +627,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "99cc8ecf2f392e5a1b25e6549fef9dac",
+            "id": "a6f79a88bbeade74d43c751311376ff6",
             "name": "Update payment method",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/payment-methods\/credit-cards\/{payment-method-id}",
             "description": "Updates an existing credit card payment method for the specified customer account.",
@@ -650,11 +650,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "d41fee4c59239489ca86d94b980fb511",
+            "id": "f19c080f9d4a50225a8da7c59e9ac374",
             "name": "Delete payment method",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/payment-methods\/{payment-method-id}",
             "description": "Deletes a credit card payment method from the specified customer account.",
@@ -673,11 +673,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "ef88b64cc4c7dc061a7353807e2041a5",
+            "id": "6c3d7590b1954b86d19fc73955e28530",
             "name": "Get revenue event details",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-events\/{event-number}",
             "description": "This REST API reference describes how to get revenue event details by specifying the revenue event number. Request and response field descriptions and sample code are provided.",
@@ -696,11 +696,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "ae191dd4b4ec023215d3e112ac5cb2c7",
+            "id": "37739c0639a2945c662fa73e405d86ad",
             "name": "Get revenue events for a revenue schedule",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-events\/revenue-schedules\/{rs-number}",
             "description": "This REST API reference describes how to get all revenue events in a revenue schedule by specifying the revenue schedule number. Request and response field descriptions and sample code are provided.",
@@ -719,11 +719,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "c747f9f15f6d628ce902a3db8a01dc7e",
+            "id": "74395b0c5f27d990518f9953ff528e80",
             "name": "Get revenue items by charge revenue summary number",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-items\/charge-revenue-summaries\/{crs-number}",
             "description": "This REST API reference describes how to get the details for each revenue item in a charge revenue summary by specifying the charge revenue summary number. Request and response field descriptions and sample code are provided.",
@@ -742,11 +742,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "7aad6752c27fdc2e541bfc54769622ea",
+            "id": "d3e194a6105156b53354bfcf5ddcc0ce",
             "name": "Get revenue items by revenue event number",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-items\/revenue-events\/{event-number}",
             "description": "This REST API reference describes how to get the details of each revenue item in a revenue event by specifying the revenue event number. Request and response field descriptions and sample code are provided.",
@@ -765,11 +765,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "49258b3116e6dfc7ede4fb84f8829cdd",
+            "id": "58b9edc4891d6ab4bc1e31ab167b645f",
             "name": "Update custom fields on revenue items by revenue event number",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-items\/revenue-events\/{event-number}",
             "description": " ",
@@ -788,11 +788,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "a40e91a6a4afbd5bc69215ad8efcd67d",
+            "id": "f418768f322b0b345251fa7b26d58d77",
             "name": "Update custom fields on revenue items by the revenue schedule number",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-items\/revenue-schedules\/{rs-number}",
             "description": "This REST API reference describes how to update custom fields on revenue Items by specifying the revenue schedule number. Request and response field descriptions and sample code are provided.",
@@ -811,11 +811,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "94affe04a82411c76c7be3f6be8c3747",
+            "id": "cfafff4f06aa3b5309b186cf8ddf61e3",
             "name": "Create a revenue schedule for an Invoice Item (distribute by date range)",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-schedules\/invoice-items\/{invoice-item-id}\/distribute-revenue-with-date-range",
             "description": "This REST API reference describes how to create a revenue schedule for an Invoice Item and distribute the revenue by specifying the recognition start and end dates.",
@@ -834,11 +834,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "0227a3fa70d74f0b051a8568342d1149",
+            "id": "f6b605de5eb10b63861623a821681fb3",
             "name": "Create a revenue schedule for an Invoice Item (manual distribution)",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-schedules\/invoice-items\/{invoice-item-id}",
             "description": "This REST API reference describes how to create a revenue schedule for an Invoice Item and manually distribute the revenue.",
@@ -857,11 +857,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "7c25839c2381caf19e40ce244ee96acd",
+            "id": "c6f8e4aa6e8dad688719479c405877db",
             "name": "Get a revenue schedule by invoice item",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-schedules\/invoice-items\/{invoice-item-id}",
             "description": "This REST API reference describes how to get the details of a revenue schedule by specifying the invoice item identifier. Request and response field descriptions and sample code are provided.",
@@ -880,11 +880,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "b3a472e749d06bdd51d37a4072b07528",
+            "id": "f8cb34c6343fa2d1657b56c48448e774",
             "name": "Create a revenue schedule for an Invoice Item Adjustment (distribute by date range)",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-schedules\/invoice-item-adjustments\/{invoice-item-adj-key}\/distribute-revenue-with-date-range",
             "description": "This REST API reference describes how to create a revenue schedule for an Invoice Item Adjustment and distribute the revenue by specifying the recognition start and end dates.",
@@ -903,11 +903,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "80977d179cb0f423b22ce1c753f8111f",
+            "id": "dfe2ad7a5a03f90d8a6731fbfa162b9a",
             "name": "Create a revenue schedule for an Invoice Item Adjustment (manual distribution)",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-schedules\/invoice-item-adjustments\/{invoice-item-adj-key}",
             "description": "This REST API reference describes how to create a revenue schedule for an Invoice Item Adjustment and manually distribute the revenue.",
@@ -926,11 +926,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "5d3c96dd2d178843174eb5ff28ae04fb",
+            "id": "c2a21a0fa3d306bed205802ecb0264bf",
             "name": "Create a revenue schedule on a subscription charge",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-schedules\/subscription-charges\/{charge-key}",
             "description": "This REST API reference describes how to create a revenue schedule by specifying the subscription charge. This method is for custom unlimited revenue recognition only. Request and response field descriptions and sample code are provided.",
@@ -949,11 +949,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "3a2fc50cdc3f611d54a9267fc200619c",
+            "id": "df3a3b2b96ae1e811e6403139bf401c9",
             "name": "Get revenue schedule details of a subscription charge",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-schedules\/subscription-charges\/{charge-key}",
             "description": "This REST API reference describes how to get the revenue schedule details by specifying subscription charge ID. Request and response field descriptions and sample code are provided. ",
@@ -972,11 +972,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "2b8ab4c1aeb0429f842ee12b903de6e8",
+            "id": "37b3d25b20f80570fd858fdb1968a242",
             "name": "Delete revenue schedule",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-schedules\/{rs-number}",
             "description": "This REST API reference describes how to delete a revenue schedule by specifying its revenue schedule number.",
@@ -995,11 +995,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "041b5976365db39ba088c1a9ce89f482",
+            "id": "ed8dfd6280c6a2dae4178a33fe29d75c",
             "name": "Get revenue schedule details",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-schedules\/{rs-number}",
             "description": "This REST API reference describes how to get the details of a revenue schedule by specifying the revenue schedule number. Request and response field descriptions and sample code are provided.",
@@ -1018,11 +1018,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "d27f7f525681f3587b55e50fde644f16",
+            "id": "89588d996c726816710b052d484c9950",
             "name": "Distribute revenue across accounting periods",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-schedules\/{rs-number}\/distribute-revenue-across-accounting-periods",
             "description": "This REST API reference describes how to distribute revenue by specifying the revenue schedule number. Request and response field descriptions and sample code are provided.",
@@ -1041,11 +1041,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "a56edad29cd61068983494c0709255a8",
+            "id": "5f3a84e3b0d4a7f9ee26bf8bb588073a",
             "name": "Distribute revenue on a specific date",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-schedules\/{rs-number}\/distribute-revenue-on-specific-date",
             "description": "This REST API reference describes how to distribute revenue on a specific recognition date. Request and response field descriptions and sample code are provided.",
@@ -1064,11 +1064,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "000c0fa2f831106dd6e28ec4004eaa58",
+            "id": "5539c4481c3908f5a97303f82b272cd2",
             "name": "Distribute revenue by recognition start and end dates",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-schedules\/{rs-number}\/distribute-revenue-with-date-range",
             "description": "This REST API reference describes how to distribute revenue by specifying the recognition start and end dates. Request and response field descriptions and sample code are provided.",
@@ -1087,11 +1087,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "23ced92aa0a9b3ad8c88db682762b812",
+            "id": "1eac499eabac5e7a20b1170b0c004a30",
             "name": "Get a revenue schedule by invoice item adjustment",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-schedules\/invoice-item-adjustments\/{invoice-item-adj-id}",
             "description": "This REST API reference describes how to get the details of a revenue schedule by specifying a valid invoice item adjustment identifier. Request and response field descriptions and sample code are provided. ",
@@ -1110,11 +1110,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "eb5fe4f92003dbdb19a771e174419dbf",
+            "id": "a6a88509cccc0be9785067b21f11d09d",
             "name": "Update revenue schedule basic information",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/revenue-schedules\/{rs-number}\/basic-information",
             "description": "This REST API reference describes how to get basic information of a revenue schedule by specifying the revenue schedule number. Request and response field descriptions and sample code are provided.",
@@ -1133,11 +1133,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "b51b5f219cb6c83d4af0f5d59e9370e2",
+            "id": "32356fb1d1612f29d03acca08034268a",
             "name": "Create subscription",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/subscriptions",
             "description": "This REST API reference describes how to create a new subscription for an existing customer account.",
@@ -1156,11 +1156,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "1be50e0658a346542bf983ef33f50e8f",
+            "id": "50c844eb3a27c16025abdf5e73bac423",
             "name": "Get subscriptions by account",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/subscriptions\/accounts\/{account-key}",
             "description": "Retrieves all subscriptions associated with the specified account.",
@@ -1179,11 +1179,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "38e660827cd14874ebd315e2dc61a8b7",
+            "id": "9c2424726f1da8c8208520267cefaec8",
             "name": "Update subscription",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/subscriptions\/{subscription-key}",
             "description": " ",
@@ -1202,11 +1202,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "b5e9e30dc708f84caf84bfe2d9056cca",
+            "id": "75b9f79a26acfc916da4cc3e8647306e",
             "name": "Get subscriptions by key",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/subscriptions\/{subscription-key}",
             "description": "This REST API reference describes how to retrieve detailed information about a specified subscription.",
@@ -1225,11 +1225,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "f9b492ca76719521f5d3e457b287ae9f",
+            "id": "16ff008e82cf7845519d42df99870f90",
             "name": "Renew subscription",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/subscriptions\/{subscription-key}\/renew",
             "description": "Renews a termed subscription using existing renewal terms.",
@@ -1248,11 +1248,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "eac7fedafbdd3771aca151d48fcd29b6",
+            "id": "b16166aa2d53e8a02f9f238d08809a0d",
             "name": "Cancel subscription",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/subscriptions\/{subscription-key}\/cancel",
             "description": "This REST API reference describes how to cancel an active subscription",
@@ -1271,11 +1271,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "d276864ca84e8fcf78b79ebf365cff1a",
+            "id": "91993b544983205df15bd53ed034f61b",
             "name": "Resume Subscription",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/subscriptions\/{subscription-key}\/resume",
             "description": "This feature is in Limited Availability. If you wish to have access to the feature, submit a request at Zuora Global Support. ",
@@ -1294,11 +1294,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "9994a084a399bb0816ef29b66c9133c0",
+            "id": "8f18c91b94907f4cddcc58563c70118e",
             "name": "Suspend Subscription",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/subscriptions\/{subscription-key}\/suspend",
             "description": "This feature is in Limited Availability. If you wish to have access to the feature, submit a request at Zuora Global Support. ",
@@ -1317,11 +1317,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "51abec3a5df1be47dadfe3622bff28db",
+            "id": "e252ac07993d5ccc31752b02540d6269",
             "name": "Create Summary Journal Entry",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/journal-entries",
             "description": "This REST API reference describes how to manually create a summary journal entry. Request and response field descriptions and sample code are provided. ",
@@ -1340,11 +1340,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "dfbbf092db7e25cb485398b50aa2fc17",
+            "id": "42a22c2e63ff3718135602b06596389d",
             "name": "Cancel Summary Journal Entry",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/journal-entries\/{je-number}\/cancel",
             "description": "This reference describes how to cancel a summary journal entry using the REST API.",
@@ -1363,11 +1363,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "7d05dae2ab9ea788705ffbc12a9cc9a3",
+            "id": "a09587db575fce327694d45fdfcc5bac",
             "name": "Delete Summary Journal Entry",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/journal-entries\/{je-number}",
             "description": "This reference describes how to delete a summary journal entry using the REST API.",
@@ -1386,11 +1386,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "ae74512bdfb8e1f53e6b433c6cfdd09b",
+            "id": "a80c3edf6c35a047efc14d427c525824",
             "name": "Get Summary Journal Entry Information",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/journal-entries\/{je-number}",
             "description": "This REST API reference describes how to get information about a summary journal entry by its journal entry number.",
@@ -1409,11 +1409,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "f7f9e8465473ea216de711df19e487e9",
+            "id": "1cf7f835f47a410aeec1148d8db62303",
             "name": "Get All Summary Journal Entries in a Journal Run",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/journal-entries\/journal-runs\/{jr-number}",
             "description": "This REST API reference describes how to retrieve information about all summary journal entries in a journal run.",
@@ -1432,11 +1432,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "9d8b898e7a8d3e6a699d30f870209bf9",
+            "id": "b4e1b30111de15ebaea29b663670656f",
             "name": "Update Basic Information of a Summary Journal Entry",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/journal-entries\/{je-number}\/basic-information",
             "description": "This REST API reference describes how to update the basic information of a summary journal entry. Request and response field descriptions and sample code are provided.",
@@ -1455,11 +1455,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "6e2a09c2f76cfa36ac6bffb29c47bf57",
+            "id": "e5fcfcd43715955e563c2736e03b6562",
             "name": "Get payments",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/transactions\/payments\/accounts\/{account-key}",
             "description": "Retrieves payments for a specified account.  ",
@@ -1478,11 +1478,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "a21741e4b0fcc84f00b53ce156e1ddab",
+            "id": "eb67dcd184d025f1c54a64077a08831a",
             "name": "Invoice and collect",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/operations\/invoice-collect",
             "description": "Generates invoices and collects payments for a specified account.",
@@ -1501,11 +1501,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "cbfc0e6fc35c909dacc844cd5fbec64d",
+            "id": "7f2c68eb960406531ab08a60a1d63457",
             "name": "Post usage",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/usage",
             "description": "This REST API reference describes how to post or import usage data for one or more accounts in the CSV format. There are no path or query parameters. The data is uploaded using the HTTP multipart\/form-data POST method and applied to the user's tenant. ",
@@ -1524,11 +1524,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         },
         {
-            "id": "6db4f8ccfcab2b97649dd53f410dbc6e",
+            "id": "35ab8c0315fc562eeeda5dc085b40b7e",
             "name": "Get usage",
             "url": "http:\/\/api.zuora.com\/rest\/v1\/\/usage\/accounts\/{account-key}",
             "description": "This REST API reference describes how to retrieve usage details for an account. Usage data is returned in reverse chronological order.",
@@ -1547,7 +1547,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c4a72ea2bf27b1d89b52a52fee4a7ff7",
+            "collectionId": "5f11ed01b1373fd9ce52f9d8d84dacdb",
             "rawModeData": ""
         }
     ]
